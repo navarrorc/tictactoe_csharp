@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace console_demo_app
+namespace tictactoe_csharp
 {
 
     class Program

@@ -3,6 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>tictactoe_csharp</AssemblyName>
+    <RootNamespace>tictactoe_csharp</RootNamespace>
   </PropertyGroup>
 
 </Project>
