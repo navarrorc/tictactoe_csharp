@@ -8,27 +8,28 @@ namespace tictactoe_csharp
         static void Main(string[] args)
         {
 
+            /*
+                TODO:
+                1. Create game grid (3,3,3) [done]
+                2. Insert `X` and `O` in the grid [done]
+                3. 
+
+
+            */
+
             Console.WriteLine(@"
                 |   |
-                |   |{1}
+             {0}|{1}|{2}
              ---|---|---
-                |{0}|
+             {3}|{4}|{5}
              ---|---|---
+             {6}|{7}|{8}
                 |   |
-                |   |
-            ", " X ", " O ");
+            ", " X ", "   ", "   ", " O ", "   ", "   ", "   ", "   ", "   ");
 
             Console.ReadKey(); // User must press the `Enter` key
 
-            Console.WriteLine(@"
-                |   |
-                |   |{1}
-             ---|---|---
-                |{0}|
-             ---|---|---
-                |   |
-                |   |
-            ", " O ", " X ");
+
         }
     }
 }
