@@ -7,7 +7,28 @@ namespace tictactoe_csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Console.WriteLine(@"
+                |   |
+                |   |{1}
+             ---|---|---
+                |{0}|
+             ---|---|---
+                |   |
+                |   |
+            ", " X ", " O ");
+
+            Console.ReadKey(); // User must press the `Enter` key
+
+            Console.WriteLine(@"
+                |   |
+                |   |{1}
+             ---|---|---
+                |{0}|
+             ---|---|---
+                |   |
+                |   |
+            ", " O ", " X ");
         }
     }
 }
