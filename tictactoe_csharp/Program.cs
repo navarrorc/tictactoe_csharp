@@ -100,7 +100,7 @@ namespace tictactoe_csharp
         static void MainLoop()
         {
             var elapsedMilliseconds = 0;
-            int totalMilliseconds = TIME_LIMIT_SECONDS * 1000;
+            var totalMilliseconds = TIME_LIMIT_SECONDS * 1000;
             const int INTERVAL = 100;
 
             while (elapsedMilliseconds < totalMilliseconds && !quit)
